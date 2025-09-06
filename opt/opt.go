@@ -2,6 +2,7 @@ package opt
 
 // Boolean flag types with constants
 type SeparateFlag bool
+
 const (
 	Separate   SeparateFlag = true
 	NoSeparate SeparateFlag = false
